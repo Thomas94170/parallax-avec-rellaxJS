@@ -1,0 +1,46 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 0;
+    margin: 0;
+}
+.header-pic{
+    background: url(img/maldives.jpg)
+    no-repeat center center/cover;
+    height: 100vh;
+    width: 100%;
+}
+/* l'image occupe tt l'espace a 100% */
+h1{
+    text-align: center;
+    padding-top: 20rem;
+    font-size: 7rem !important;
+    color: darkorange;
+    text-shadow: 2px 2px 2px black;
+    font-weight: bold;
+    letter-spacing: 2rem;
+    text-transform: uppercase;
+}
+.main-pic{
+    background: url(img/montagne.jpg)
+    no-repeat center center/cover;
+    height: 100vh;
+    width: 100%;
+}
+h2{
+    text-align: center;
+    padding-top: 30rem;
+    font-size: 5rem !important;
+    color: skyblue;
+    text-shadow: 2px 2px 2px black;
+    font-weight: bold;
+    letter-spacing: 1.5rem;
+    text-transform: uppercase;
+}
+.footer{
+    height: 100vh;
+    display: flex;
+    padding: 24rem 7rem 0;
+}
+p{
+    padding: 2rem 3rem;
+}
